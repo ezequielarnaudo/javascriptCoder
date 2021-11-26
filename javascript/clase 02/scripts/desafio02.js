@@ -3,23 +3,28 @@
  * 
  * @version: versión: 1.0.0
  * @author: Ezequiel Arnaudo.
- * @fecha: 23/11/2021
+ * @fecha: 25/11/2021
  *
  * History:
- *  - v1.0.0 – Primera entrega
+ *  - v1.0.1 – Primera entrega
  */
 
 // Código de aquí en adelante
 
-let nombreUsuario = prompt("Ingrese su nombre completo");
 
-alert("Buenas tardes: " + nombreUsuario);
+let numero = parseInt(prompt("INGRESE UN NUMERO ENTRE 0 Y 100"));
 
-let edadUsuario = prompt("Ingrese su edad");
+if(numero > 100){
+    alert("El numero ingresado es " + numero + " y no cumple con la consigna" );
+}else{
+    alert("El numero ingresado es " + numero);
+}
 
-alert("Buenas tardes: " + nombreUsuario + " su edad es: " + edadUsuario);
-
-let nacimiento = 2021 - edadUsuario;
-
-alert("Buenas tardes: " + nombreUsuario + " tu edad es " + edadUsuario + " y tu año de nacimiento es: " + nacimiento);
+let num1 = parseInt(prompt("INGRESE UN NUMERO"));
+if(isNaN(num1)){
+   alert(" Usted NO ingreso un numero");
+   
+}else{
+   alert("Usted ingreso correctamente el numero " + num1);
+}
 
