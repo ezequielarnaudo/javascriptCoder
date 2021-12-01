@@ -34,3 +34,32 @@ while(true) {
 
   }
 }
+
+let numeroDia = prompt("Ingrese el dia de la semana");
+
+switch(numeroDia) {
+
+    case '1':
+        alert("El dia es Lunes");
+        break;
+    case '2':
+        alert("El dia es Martes");
+        break;
+    case '3':
+        alert("El dia es Miercoles");   
+        break;
+    case '4':
+            alert("El dia es Jueves");   
+            break;
+    case '5':
+        alert("El dia es Viernes");   
+        break;
+    case '6':
+            alert("El dia es Sabado")   
+            break;
+    case '7':
+        alert("El dia es Domingo")   
+        break;
+    default:
+        ("Numero de la semana incorrecto");
+}
