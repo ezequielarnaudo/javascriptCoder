@@ -61,5 +61,5 @@ switch(numeroDia) {
         alert("El dia es Domingo")   
         break;
     default:
-        ("Numero de la semana incorrecto");
+        alert("Numero de la semana incorrecto");
 }
