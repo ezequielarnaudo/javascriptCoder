@@ -19,6 +19,15 @@
 
 //Guarda la informacion de un profesional medico para darse de alta como usuario en el sistema
 
+let nombre = prompt("Ingrese su nombre");
+let apellido = prompt("Ingrese sui apellido");
+let matricula = parseInt(prompt("Ingrese su numero de matricula profesional"));
+let especialidad = prompt("Ingrese su especialidad");
+let telefono = parseInt(prompt("Ingrese su numero de telefono"));
+let email = prompt("Ingrese su direccion de email");
+
+
+
 function personaMedico (nombre, apellido, matricula, especialidad, telefono, email){
 
     this.nombre = nombre;
@@ -27,9 +36,10 @@ function personaMedico (nombre, apellido, matricula, especialidad, telefono, ema
     this.especialidad = especialidad;
     this.telefono = telefono;
     this.email = email;
-
 }
 
-let nuevoMedico = new personaMedico('Ezequiel', 'Arnaudo', 112233, 'cirujano', 778899, 'ejemplo@ejemplo.com');
+let nuevoMedico = new personaMedico(nombre, apellido, matricula, especialidad, telefono, email);
+
+alert("Bienvenido Dr/a " + nombre + " " + apellido);
 
 
