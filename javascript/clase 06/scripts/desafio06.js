@@ -63,7 +63,7 @@ function cargarMedico(){ //le pide al usuario que ingrese sus datos
 function listarMedico () {
     let variable = "";
     for (let medico of listadoMedicos) {
-        variable += " " + medico.nombre + " " + medico.apellido + " " + medico.especialidad;
+        variable += " " + medico.nombre + " " + medico.apellido + " " + medico.especialidad + "\n";
         
     }
     alert(variable);
