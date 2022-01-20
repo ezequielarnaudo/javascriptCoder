@@ -16,6 +16,7 @@
  *  - v1.0.9 – Novena entrega
  *  - v1.0.10 - Décima entrega
  *  - v1.0.11 - Undécima entrega
+ *  - v1.0.13 - Trigesima entrega
  */
 
 
@@ -42,7 +43,7 @@ $(document).ready(function(){
     });
 });
 
-$('#titulo').append("<h1>Desafio N° 14 - Ezequiel Arnaudo</h1>");
+$('#titulo').append("<h1>Desafio N° 13 - Ezequiel Arnaudo</h1>");
 
 
 
