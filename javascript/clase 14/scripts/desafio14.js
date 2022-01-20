@@ -16,6 +16,8 @@
  *  - v1.0.9 – Novena entrega
  *  - v1.0.10 - Décima entrega
  *  - v1.0.11 - Undécima entrega
+ *  - v1.0.13 - Trigesima entrega
+ *  - v1.0.13 - Catorceava entrega
  */
 
 
